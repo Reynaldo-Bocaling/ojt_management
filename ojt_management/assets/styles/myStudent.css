@@ -1,0 +1,173 @@
+.mystudent_table_container{
+    min-height: 100%;
+    width: 100%;
+    padding: 25px;
+    border: solid #2222 !important;
+    padding: 20px;
+    /* background: REd; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    /* background: REd; */
+}
+
+.myStudent_title{
+    height: 60px;
+    color: #232323;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+
+
+
+.student_table_header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.student_table_header button{
+    height: 35px;
+    width: 80px;
+    border: none;
+    color: #fff;
+    background: rgb(0, 140, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 4px;
+    box-shadow: 0 5px 9px rgba(170, 211, 255, 0.4);
+    cursor: pointer;
+}
+
+.student_table_header button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+/* table */
+table.dataTable {
+
+    border-spacing: none !important;
+}
+
+table  tr:nth-child(even){
+background: REd;
+}
+.student_main_table_container{
+    /* box-shadow: 0 0 3px rgba(0,0,0,0.3); */
+    padding: 15px;
+}
+
+.mystudent_table_wrapper{
+    background: REd;
+}
+#mystudent_table{
+    box-shadow: 0 0 2px rgba(0,0,0,0.4);
+    border-radius: 7px;
+    overflow: hidden;
+    background: #fff;
+    margin: 20px 0;
+}
+
+.dataTables_length label,
+.dataTables_filter label,
+#mystudent_table_info{
+    color: #777;
+    font-size: 0.95rem;
+    letter-spacing: 0.8px;
+}
+
+.dataTables_length{
+    padding-bottom: 20px;
+}
+.paginate_button.previous{
+    padding-right: 12px;
+}
+.paginate_button.previous{
+    padding-right: 12px;
+}
+.paginate_button.next{
+    padding-left: 12px;
+}
+#mystudent_table  tr{
+    height: 45px;
+}
+#mystudent_table .sorting{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.9px;
+    font-weight: 700;
+}
+#mystudent_table tbody tr:nth-child(even),
+#mystudent_table tr .sorting{
+    background: rgb(248, 247, 249);
+}
+
+#mystudent_table_wrapper select{
+    width: 70px;
+    height: 32px;
+    border: 1px solid rgb(194, 187, 187);
+    padding: 0 5px;
+    margin: 0 10px;
+}
+#mystudent_table tbody td{
+    color: rgb(98, 97, 97);
+    font-size:0.83em;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+}
+.dataTables_filter label{
+    padding-right: 12px;
+}
+
+
+.dataTables_filter input{
+    border: 1px solid rgb(189, 186, 186);
+    height: 35px;
+    width: 200px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+}
+.dataTables_filter input:focus{
+outline: none;
+border: 1px solid rgb(193, 192, 192);
+
+}
+
+.dataTables_paginate span{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.dataTables_paginate span a{
+    color: #fff !important;
+    font-size: .78rem;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(0, 123, 255);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dataTables_paginate span:hover{
+    background: tranparent;
+}
+.dataTables_paginate{
+    display: flex;
+    align-items: center;
+}
+.paginate_button.previous:active{
+    background: REd;
+}
